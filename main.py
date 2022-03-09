@@ -10,8 +10,6 @@ import os
 
 app = Flask(__name__)
 Bootstrap(app)
-app.config["SECRET_KEY"] = "dsio6dsiufs78rsfrjd"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///my_movies.db"
 db = SQLAlchemy(app)
 API = "10b1e67f018e6235471c592d2464e33e"
 image_add = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2"
